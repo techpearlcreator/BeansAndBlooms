@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = en>
+  <head>
+    <link rel="stylesheet" href="project-bb05.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, intial-scale=1.0">
+    <title>	Order Coffee & Treats Online – Beans & Blooms Cafe</title>
+     <link rel="icon" href="techpearl-favicon-logo.ico" type="image/x-icon">
+     <link href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+   
+    </head>
+  <body>
+    <div id="top"class="navtop">
+        <div  class="navright">
+            <img src="bb-front-logo.png" width="45px" height="45px">
+            <h1>Beans </h1>
+            <h1>&</h1>
+            <h1  style="color: #ffd57b;"> Bloom</h1>
+            <div class="home">
+             <h1><a href="index.html">Home</a></h1>
+            </div>
+        </div>
+       </div>
+
+       <div class="order-number">
+        <p>Order Number: <div class="ord-num"> <span id="orderNumber"></span> </div></p>
+      </div>
+       <div class="order-time">
+        <p>Order Placed At: <span id="orderTimestamp"></span></p>
+      </div>
+      <div class="total-order">
+       <div class="ordertop">
+       <h2>Order Summary</h2>
+       </div>
+
+  <div id="orderSummary"></div>
+  </div>
+       <div class="qr-code">
+  <h3>Scan to Pay (UPI)</h3>
+  </div>
+  <div id="qrcode" class="qr-box"></div>
+
+  <div class="orderinfo">
+    <h2>Fill the details </h2>
+    <p>Note : after fill details then click confirm order button it go to whatsapp to send order details send it ,our Customer care call you soon</p>
+    <div class="cus">
+    <label  for="Name"  class="cus-name">Customer Name:</label><input type="text" id="Name" max="50">
+    </div>
+    <div class="mobile">
+    <label for="Mobile-No" class="mobile-number">Mobile No:</label><input type="number" id="Mobile-No"  ></div>
+    <div class="Address">
+    <label for="Address" class="Delivery">Delivery Location:</label><input type="text" id="Address">
+      </div>
+      <div class="screenshot">
+        <label for="screenshot-payment" class="payment">Add screenshot for conform payment</label><br>
+        <input type="file" id="Screenshot" accept="png, jpeg, jpg">
+      </div>
+      <div class="confirm-order">
+        <button onclick="sendCompletedOrder()">Confirm order</button>
+      </div>
+  </div>
+  <div class="thank-note">
+    <ul>
+      <li>Thank you for visiting our shop</li>
+      <li>Come Again</li>
+      <li>Have a Nice day</li>
+      <li>Contact no : +91 63695 10851</li>
+      <li>G-mail :beansandbloomcafeshop@gmail.com</li>
+    </ul>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="project-bb05.js"></script>
+  </body>
+  </html>

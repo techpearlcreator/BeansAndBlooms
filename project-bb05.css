@@ -1,0 +1,1326 @@
+@media screen and (min-width:320px) {
+    
+
+body{
+    background-color: mintcream;
+}
+.navtop{
+    /*border: solid 2px red;*/
+    display: flex;
+   }
+   .navright{
+      /* border: 2px solid red;*/
+       display: flex;
+       margin-top: 5px;
+       margin-left: 5px;
+   }
+   .navright img{
+       border-radius: 50%;
+   }
+   .navright h1{
+       color: black;
+       font-family: 'Keania One', cursive;
+       font-size: 18px;
+       font-weight: lighter;
+       padding-left: 10px;
+   }
+   .home h1{
+    margin-top: 15px;
+    font-size: 17px;
+   }
+   .home a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter',sans-serif;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-left: 80px;
+   }
+   .order-number {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    margin-left: -70px;
+  }
+  .ord-num {
+    margin-top: -30px;
+  }
+  #orderNumber {
+    color: black;
+    font-size: 12px;
+    letter-spacing: 1px;
+    background: mintcream;
+    margin-left: 255px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+  }
+   .order-time {
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 60px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    
+  }
+  
+  #orderTimestamp {
+    font-weight: bold;
+    color:black;
+    background: mintcream;
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+   .ordertop h2{
+    font-size: 16px;
+   margin-top: 40px;
+    margin-left: 90px;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+   }
+   #orderSummary ul{
+    list-style: none;
+    font-family: 'Inter',sans-serif;
+    font-size: 13px;
+    margin-left: -15px;
+   }
+   #orderSummary strong{
+    margin-left: 190px;
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+   }
+   .qr-code h3{
+    font-size: 16px;
+    margin-top: 40px;
+     margin-left: 90px;
+     font-family: 'Inter',sans-serif;
+     font-weight: bold;
+   }
+   #qrcode {
+    display: flex;
+    justify-content: center; /* Centers QR code horizontally */
+    padding: 20px;
+    background: mintcream;
+    border-radius: 25px;
+    margin: 0 auto; /* Centers the container itself */
+    border: 2px solid black;
+}
+.orderinfo{
+    margin-top: 50px;
+}
+.orderinfo h2{
+    font-family:'Inter',sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.orderinfo p{
+    font-family: 'Inter',sans-serif;
+    font-size: 9px;
+    font-weight: lighter;
+}
+.cus input{
+ border-radius: 5px;
+ background-color: white;
+ border: 1px solid black;
+ margin-left: 15px;
+}
+.cus-name {
+ 
+font-family: 'Inter',sans-serif;
+font-size: small;
+font-weight: lighter;
+padding-right: 10px;
+}
+.mobile input{
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.mobile-number{
+    font-family: 'Inter',sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    padding-right: 10px;
+}
+.Delivery {
+    font-family: 'Inter',sans-serif;
+    font-size: small;
+    font-weight: lighter;
+}
+.Address input{
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 17px;
+    height: 20px;
+}
+.payment{
+
+    font-family: 'Inter',sans-serif;
+    font-size: 13px;
+}
+.screenshot {
+    margin-top: 10px;
+}
+.screenshot input{
+    margin-top: 30px;
+    font-family: 'Inter',sans-serif;
+}
+.confirm-order button{
+    margin-top: 50px;
+    margin-left: 180px;
+    width: 120px;
+    height: 30px;
+    color: mintcream;
+    background-color: rgb(64, 43, 1);
+    border-radius: 24px;
+}
+.thank-note {
+    font-family: 'Inter',sans-serif;
+    margin-top: 50px;
+}
+.thank-note li{
+    list-style: none;
+    font-size: 13px;
+    font-weight: lighter;
+    margin-left: -20px;
+    padding-top: 8px;
+} 
+}
+@media screen and (min-width:768px) {
+    
+
+body{
+    background-color: mintcream;
+}
+.navtop{
+    /*border: solid 2px red;*/
+    display: flex;
+   }
+   .navright{
+      /* border: 2px solid red;*/
+       display: flex;
+       margin-top: 5px;
+       margin-left: 5px;
+   }
+   .navright img{
+       border-radius: 50%;
+   }
+   .navright h1{
+       color: black;
+       font-family: 'Keania One', cursive;
+       font-size: 22px;
+       font-weight: lighter;
+       padding-left: 10px;
+   }
+   .home h1{
+    margin-top: 15px;
+    font-size: 20px;
+   }
+   .home a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter',sans-serif;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-left: 450px;
+   }
+   .order-number {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    padding-left: 200px;
+  }
+  .ord-num {
+    margin-top: -40px;
+  }
+  #orderNumber {
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background: mintcream;
+    margin-left: 345px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+  }
+   .order-time {
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 300px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    
+  }
+  
+  #orderTimestamp {
+    font-weight: bold;
+    color:black;
+    background: mintcream;
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+   .ordertop h2{
+    font-size: 22px;
+   margin-top: 40px;
+    margin-left: 300px;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+   }
+   #orderSummary ul{
+    list-style: none;
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    margin-left: 140px;
+   }
+   #orderSummary strong{
+    margin-left: 470px;
+    font-family: 'Inter',sans-serif;
+    font-size: 22px;
+   }
+   .qr-code h3{
+    font-size: 22px;
+    margin-top: 40px;
+     margin-left: 300px;
+     font-family: 'Inter',sans-serif;
+     font-weight: bold;
+   }
+   #qrcode {
+    display: flex;
+    justify-content: center; /* Centers QR code horizontally */
+    padding: 20px;
+    background: mintcream;
+    border-radius: 25px;
+    margin: 0 auto; /* Centers the container itself */
+    border: 2px solid black;
+    margin-left: 270px;
+    margin-right: 230px;
+}
+.orderinfo{
+    margin-top: 50px;
+}
+.orderinfo h2{
+    font-family:'Inter',sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 300px;
+}
+.orderinfo p{
+    font-family: 'Inter',sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 200px;
+    padding-right: 100px
+}
+.cus {
+    margin-top: 30px;
+}
+.cus input{
+    height: 25px;
+    width: 200px;
+ border-radius: 5px;
+ background-color: white;
+ border: 2px solid black;
+}
+.cus-name {
+ margin-left: 220px;
+font-family: 'Inter',sans-serif;
+font-size: 18px;
+font-weight: bold;
+padding-right: 10px;
+}
+.mobile {
+    margin-top: 5px;
+}
+.mobile input{
+    height: 25px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 65px;
+    margin-top: 10px;
+    width: 200px;
+}
+.mobile-number{
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 10px;
+    margin-left: 220px;
+}
+.Address {
+    margin-top: 5px;
+}
+.Delivery {
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 220px;
+}
+.Address input{
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 30px;
+    width: 200px;
+}
+.payment{
+    margin-top: 20px;
+    margin-left: 220px;
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+}
+.screenshot {
+    margin-top: 10px;
+}
+.screenshot input{
+    margin-top: 30px;
+    margin-left: 220px;
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+}
+.confirm-order button{
+    margin-top: 50px;
+    margin-left: 480px;
+    width: 120px;
+    height: 40px;
+    color: mintcream;
+    background-color: rgb(64, 43, 1);
+    border-radius: 24px;
+    font-size: 16px;
+}
+.thank-note {
+    font-family: 'Inter',sans-serif;
+    margin-top: 50px;
+}
+.thank-note li{
+    list-style: none;
+    font-size: 22px;
+    font-weight: lighter;
+    margin-left: 130px;
+    padding-top: 8px;
+} 
+}
+@media screen and (min-width:1024px) {
+    
+
+body{
+    background-color: mintcream;
+}
+.navtop{
+    /*border: solid 2px red;*/
+    display: flex;
+   }
+   .navright{
+      /* border: 2px solid red;*/
+       display: flex;
+       margin-top: 5px;
+       margin-left: 5px;
+   }
+   .navright img{
+       border-radius: 50%;
+       width:70px;
+       height: 70px;
+   }
+   .navright h1{
+       color: black;
+       font-family: 'Keania One', cursive;
+       font-size: 26px;
+       font-weight: lighter;
+       padding-left: 10px;
+   }
+   .home h1{
+    margin-top: 15px;
+    font-size: 26px;
+   }
+   .home a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter',sans-serif;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-left: 620px;
+   }
+   .order-number {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Inter',sans-serif;
+    font-size: 22px;
+    padding-left: 200px;
+  }
+  .ord-num {
+    margin-top: -48px;
+  }
+  #orderNumber {
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: mintcream;
+    margin-left: 435px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+  }
+   .order-time {
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 360px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    
+  }
+  
+  #orderTimestamp {
+    font-weight: bold;
+    color:black;
+    background: mintcream;
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+   .ordertop h2{
+    font-size: 26px;
+   margin-top: 80px;
+   margin-bottom: 40px;
+    margin-left: 450px;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+   }
+   #orderSummary ul{
+    list-style: none;
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    margin-left: 280px;
+  
+   }
+   #orderSummary strong{
+    padding-top: 100px;
+    margin-left: 650px;
+    font-family: 'Inter',sans-serif;
+    font-size: 22px;
+   }
+   .qr-code h3{
+    font-size: 26px;
+    margin-top: 40px;
+     margin-left: 420px;
+     font-family: 'Inter',sans-serif;
+     font-weight: bold;
+   }
+   #qrcode {
+    display: flex;
+    justify-content: center; /* Centers QR code horizontally */
+    padding: 20px;
+    background: mintcream;
+    border-radius: 25px;
+    margin: 0 auto; /* Centers the container itself */
+    border: 2px solid black;
+    margin-left: 400px;
+    margin-right: 350px;
+}
+.orderinfo{
+    margin-top: 80px;
+}
+.orderinfo h2{
+    font-family:'Inter',sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 350px;
+}
+.orderinfo p{
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 230px;
+    padding-right: 100px
+}
+.cus {
+    margin-top: 50px;
+}
+.cus input{
+    height: 35px;
+    width: 200px;
+ border-radius: 5px;
+ background-color: white;
+ border: 2px solid black;
+}
+.cus-name {
+ margin-left: 220px;
+font-family: 'Inter',sans-serif;
+font-size: 22px;
+font-weight: bold;
+padding-right: 10px;
+}
+.mobile {
+    margin-top: 25px;
+}
+.mobile input{
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 205px;
+}
+.mobile-number{
+    font-family: 'Inter',sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 10px;
+    margin-left: 220px;
+}
+.Address {
+    margin-top: 25px;
+}
+.Delivery {
+    font-family: 'Inter',sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 220px;
+}
+.Address input{
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 60px;
+    width: 200px;
+}
+.payment{
+    padding-top: 30px;
+    margin-left: 220px;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+}
+.screenshot {
+    margin-top: 10px;
+}
+.screenshot input{
+    margin-top: 30px;
+    margin-left: 220px;
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+}
+.confirm-order button{
+    margin-top: 50px;
+    margin-left: 650px;
+    width: 150px;
+    height: 50px;
+    color: mintcream;
+    background-color: rgb(64, 43, 1);
+    border-radius: 24px;
+    font-size: 18px;
+}
+.thank-note {
+    font-family: 'Inter',sans-serif;
+    margin-top: 50px;
+}
+.thank-note li{
+    list-style: none;
+    font-size: 26px;
+    font-weight: lighter;
+    margin-left: 130px;
+    padding-top: 8px;
+} 
+}
+@media screen and (min-width:1366px) {
+    
+
+body{
+    background-color: mintcream;
+}
+.navtop{
+    /*border: solid 2px red;*/
+    display: flex;
+   }
+   .navright{
+      /* border: 2px solid red;*/
+       display: flex;
+       margin-top: 5px;
+       margin-left: 5px;
+   }
+   .navright img{
+       border-radius: 50%;
+       width:80px;
+       height: 80px;
+   }
+   .navright h1{
+       color: black;
+       font-family: 'Keania One', cursive;
+       font-size: 30px;
+       font-weight: lighter;
+       padding-left: 10px;
+   }
+   .home h1{
+    margin-top: 30px;
+    font-size: 26px;
+   }
+   .home a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter',sans-serif;
+    font-weight: lighter;
+    margin-top: 80px;
+    margin-left: 920px;
+   }
+   .order-number {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Inter',sans-serif;
+    font-size: 22px;
+    padding-left: 600px;
+  }
+  .ord-num {
+    margin-top: -48px;
+  }
+  #orderNumber {
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: mintcream;
+    margin-left: 435px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+  }
+   .order-time {
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 760px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    
+  }
+  
+  #orderTimestamp {
+    font-weight: bold;
+    color:black;
+    background: mintcream;
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+   .ordertop h2{
+    font-size: 26px;
+   margin-top: 80px;
+   margin-bottom: 40px;
+    margin-left: 650px;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+   }
+   #orderSummary ul{
+    list-style: none;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    margin-left: 480px;
+  
+   }
+   #orderSummary strong{
+    padding-top: 100px;
+    margin-left: 850px;
+    font-family: 'Inter',sans-serif;
+    font-size: 26px;
+   }
+   .qr-code h3{
+    font-size: 26px;
+    margin-top: 40px;
+     margin-left: 620px;
+     font-family: 'Inter',sans-serif;
+     font-weight: bold;
+   }
+   #qrcode {
+    display: flex;
+    justify-content: center; /* Centers QR code horizontally */
+    padding: 20px;
+    background: mintcream;
+    border-radius: 25px;
+    margin: 0 auto; /* Centers the container itself */
+    border: 2px solid black;
+    margin-left: 600px;
+    margin-right: 500px;
+}
+.orderinfo{
+    margin-top: 80px;
+}
+.orderinfo h2{
+    font-family:'Inter',sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 450px;
+}
+.orderinfo p{
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 330px;
+    padding-right: 150px
+}
+.cus {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.cus input{
+    height: 35px;
+    width: 200px;
+ border-radius: 5px;
+ background-color: white;
+ border: 2px solid black;
+}
+.cus-name {
+ margin-left: 220px;
+font-family: 'Inter',sans-serif;
+font-size: 22px;
+font-weight: bold;
+padding-right: 10px;
+}
+.mobile {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.mobile input{
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 205px;
+}
+.mobile-number{
+    font-family: 'Inter',sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 10px;
+    margin-left: 220px;
+}
+.Address {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.Delivery {
+    font-family: 'Inter',sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 220px;
+}
+.Address input{
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 60px;
+    width: 200px;
+}
+.payment{
+    padding-top: 30px;
+    margin-left: 320px;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+}
+.screenshot {
+    margin-top: 10px;
+}
+.screenshot input{
+    margin-top: 30px;
+    margin-left: 320px;
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+}
+.confirm-order button{
+    margin-top: 50px;
+    margin-left: 750px;
+    width: 150px;
+    height: 50px;
+    color: mintcream;
+    background-color: rgb(64, 43, 1);
+    border-radius: 24px;
+    font-size: 20px;
+}
+.thank-note {
+    font-family: 'Inter',sans-serif;
+    margin-top: 50px;
+}
+.thank-note li{
+    list-style: none;
+    font-size: 26px;
+    font-weight: lighter;
+    margin-left: 230px;
+    padding-top: 8px;
+} 
+}
+@media screen and (min-width:1440px) {
+    
+
+body{
+    background-color: mintcream;
+}
+.navtop{
+    /*border: solid 2px red;*/
+    display: flex;
+   }
+   .navright{
+      /* border: 2px solid red;*/
+       display: flex;
+       margin-top: 5px;
+       margin-left: 5px;
+   }
+   .navright img{
+       border-radius: 50%;
+       width:80px;
+       height: 80px;
+   }
+   .navright h1{
+       color: black;
+       font-family: 'Keania One', cursive;
+       font-size: 30px;
+       font-weight: lighter;
+       padding-left: 10px;
+   }
+   .home h1{
+    margin-top: 30px;
+    font-size: 26px;
+   }
+   .home a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter',sans-serif;
+    font-weight: lighter;
+    margin-top: 80px;
+    margin-left: 1000px;
+   }
+   .order-number {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Inter',sans-serif;
+    font-size: 22px;
+    padding-left: 600px;
+  }
+  .ord-num {
+    margin-top: -48px;
+  }
+  #orderNumber {
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: mintcream;
+    margin-left: 435px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+  }
+   .order-time {
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 760px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    
+  }
+  
+  #orderTimestamp {
+    font-weight: bold;
+    color:black;
+    background: mintcream;
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+   .ordertop h2{
+    font-size: 26px;
+   margin-top: 80px;
+   margin-bottom: 40px;
+    margin-left: 650px;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+   }
+   #orderSummary ul{
+    list-style: none;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    margin-left: 480px;
+  
+   }
+   #orderSummary strong{
+    padding-top: 100px;
+    margin-left: 850px;
+    font-family: 'Inter',sans-serif;
+    font-size: 26px;
+   }
+   .qr-code h3{
+    font-size: 26px;
+    margin-top: 40px;
+     margin-left: 620px;
+     font-family: 'Inter',sans-serif;
+     font-weight: bold;
+   }
+   #qrcode {
+    display: flex;
+    justify-content: center; /* Centers QR code horizontally */
+    padding: 20px;
+    background: mintcream;
+    border-radius: 25px;
+    margin: 0 auto; /* Centers the container itself */
+    border: 2px solid black;
+    margin-left: 600px;
+    margin-right: 500px;
+}
+.orderinfo{
+    margin-top: 80px;
+}
+.orderinfo h2{
+    font-family:'Inter',sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 450px;
+}
+.orderinfo p{
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 330px;
+    padding-right: 150px
+}
+.cus {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.cus input{
+    height: 35px;
+    width: 200px;
+ border-radius: 5px;
+ background-color: white;
+ border: 2px solid black;
+}
+.cus-name {
+ margin-left: 220px;
+font-family: 'Inter',sans-serif;
+font-size: 22px;
+font-weight: bold;
+padding-right: 10px;
+}
+.mobile {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.mobile input{
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 205px;
+}
+.mobile-number{
+    font-family: 'Inter',sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 10px;
+    margin-left: 220px;
+}
+.Address {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.Delivery {
+    font-family: 'Inter',sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 220px;
+}
+.Address input{
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 60px;
+    width: 200px;
+}
+.payment{
+    padding-top: 30px;
+    margin-left: 320px;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+}
+.screenshot {
+    margin-top: 10px;
+}
+.screenshot input{
+    margin-top: 30px;
+    margin-left: 320px;
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+}
+.confirm-order button{
+    margin-top: 50px;
+    margin-left: 750px;
+    width: 150px;
+    height: 50px;
+    color: mintcream;
+    background-color: rgb(64, 43, 1);
+    border-radius: 24px;
+    font-size: 20px;
+}
+.thank-note {
+    font-family: 'Inter',sans-serif;
+    margin-top: 50px;
+}
+.thank-note li{
+    list-style: none;
+    font-size: 26px;
+    font-weight: lighter;
+    margin-left: 230px;
+    padding-top: 8px;
+} 
+}
+@media screen and (min-width:1536px) {
+    
+
+body{
+    background-color: mintcream;
+}
+.navtop{
+    /*border: solid 2px red;*/
+    display: flex;
+   }
+   .navright{
+      /* border: 2px solid red;*/
+       display: flex;
+       margin-top: 5px;
+       margin-left: 5px;
+   }
+   .navright img{
+       border-radius: 50%;
+       width:80px;
+       height: 80px;
+   }
+   .navright h1{
+       color: black;
+       font-family: 'Keania One', cursive;
+       font-size: 30px;
+       font-weight: lighter;
+       padding-left: 10px;
+   }
+   .home h1{
+    margin-top: 30px;
+    font-size: 26px;
+   }
+   .home a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter',sans-serif;
+    font-weight: lighter;
+    margin-top: 80px;
+    margin-left: 1050px;
+   }
+   .order-number {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Inter',sans-serif;
+    font-size: 22px;
+    padding-left: 700px;
+  }
+  .ord-num {
+    margin-top: -48px;
+  }
+  #orderNumber {
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: mintcream;
+    margin-left: 435px;
+    border-radius: 6px;
+    display: inline-block;
+    font-weight: bold;
+  }
+   .order-time {
+    text-align: center;
+    margin-top: -15px;
+    margin-left: 860px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    
+  }
+  
+  #orderTimestamp {
+    font-weight: bold;
+    color:black;
+    background: mintcream;
+    padding: 6px 12px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+   .ordertop h2{
+    font-size: 26px;
+   margin-top: 80px;
+   margin-bottom: 40px;
+    margin-left: 750px;
+    font-family: 'Inter',sans-serif;
+    font-weight: bold;
+   }
+   #orderSummary ul{
+    list-style: none;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+    margin-left: 580px;
+  
+   }
+   #orderSummary strong{
+    padding-top: 100px;
+    margin-left: 950px;
+    font-family: 'Inter',sans-serif;
+    font-size: 26px;
+   }
+   .qr-code h3{
+    font-size: 26px;
+    margin-top: 40px;
+     margin-left: 750px;
+     font-family: 'Inter',sans-serif;
+     font-weight: bold;
+   }
+   #qrcode {
+    display: flex;
+    justify-content: center; /* Centers QR code horizontally */
+    padding: 20px;
+    background: mintcream;
+    border-radius: 25px;
+    margin: 0 auto; /* Centers the container itself */
+    border: 2px solid black;
+    margin-left: 700px;
+    margin-right: 500px;
+}
+.orderinfo{
+    margin-top: 80px;
+}
+.orderinfo h2{
+    font-family:'Inter',sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 450px;
+}
+.orderinfo p{
+    font-family: 'Inter',sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-left: 330px;
+    padding-right: 150px
+}
+.cus {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.cus input{
+    height: 35px;
+    width: 200px;
+ border-radius: 5px;
+ background-color: white;
+ border: 2px solid black;
+}
+.cus-name {
+ margin-left: 220px;
+font-family: 'Inter',sans-serif;
+font-size: 22px;
+font-weight: bold;
+padding-right: 10px;
+}
+.mobile {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.mobile input{
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-left: 75px;
+    margin-top: 10px;
+    width: 205px;
+}
+.mobile-number{
+    font-family: 'Inter',sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    padding-right: 10px;
+    margin-left: 220px;
+}
+.Address {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.Delivery {
+    font-family: 'Inter',sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 220px;
+}
+.Address input{
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 60px;
+    width: 200px;
+}
+.payment{
+    padding-top: 30px;
+    margin-left: 320px;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+}
+.screenshot {
+    margin-top: 10px;
+}
+.screenshot input{
+    margin-top: 30px;
+    margin-left: 320px;
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+    font-size: 20px;
+}
+.confirm-order button{
+    margin-top: 50px;
+    margin-left: 750px;
+    width: 150px;
+    height: 50px;
+    color: mintcream;
+    background-color: rgb(64, 43, 1);
+    border-radius: 24px;
+    font-size: 20px;
+}
+.thank-note {
+    font-family: 'Inter',sans-serif;
+    margin-top: 50px;
+}
+.thank-note li{
+    list-style: none;
+    font-size: 26px;
+    font-weight: lighter;
+    margin-left: 230px;
+    padding-top: 8px;
+} 
+}
+
+

@@ -1,0 +1,1688 @@
+@media screen and (min-width:320px) {
+   
+
+*{
+    scroll-behavior: smooth;
+}
+    .body{
+      max-width: 300px;
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-left: 10px;
+    
+}
+.navleft{
+    display: flex;
+    font-size: 20px;
+    padding-left:35px;
+    margin-top: 33px;
+}
+.navleft a{
+    padding-left:22px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.mobilebanner{
+    display: flex;
+    margin-right: 15px;
+}
+.mobilebanner img{
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 780px;
+}
+.desktopbanner img{
+    display: none;
+}
+.pc-banner {
+   display: none;
+}
+.carfting {
+    /* border: solid 2px red;*/
+     width: 760px;
+     padding-left: 20px;
+     margin-top: 50px;
+     font-family: 'Inter',sans-serif;
+     font-size: 19px;
+ }
+ 
+ .craftimages{
+     display: flex;
+    justify-content: space-between;
+ }
+ .craftimages img{
+     width: 1605x;
+     height: 165px;
+     border-radius: 50%;
+    
+ }
+ .craft-img01 img{
+
+ }
+ .craft-img005,.craft-img06 img {
+   display: none;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+ }
+ .craftnote h1{
+     padding-left: 5px;
+    
+ }
+ .craft-note05, .craft-note06 {
+   display: none;
+ }
+ .about{
+   width:760px;
+   margin-left: 13px;
+   font-family: 'Inter',sans-serif;
+ }
+ .about-us h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .about-us p{
+   font-size: 34px;
+   font-weight: lighter;
+ }
+ .global h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .global p{
+   font-size: 34px;
+   font-weight: lighter;
+ }
+ .third h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .third p{
+   font-size: 34px;
+   font-weight: lighter;
+ }
+ .ccc h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .ccc p{
+   font-size: 34px;
+   font-weight:lighter;
+ }
+ .ccc ul{
+   list-style-type: disc;
+   font-size: 34px;
+   font-weight: lighter;
+ }
+ .join h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .join p{
+   font-size: 34px;
+   font-weight: lighter;
+ }
+ .info {
+    margin-top:150px;
+    font-family: 'Inter',sans-serif;
+    width: 750px;
+    margin-left: 20px;
+     }
+     .info h1{
+        width: 700px;
+        font-size: 38px;
+        margin-left: 40px;
+        font-weight: 500;
+     }
+     .foot {
+        background-color: #61432E;
+        width: 815px;
+        height: 830px;
+        margin-top: 35px;
+        margin-left: -8px;
+        border-radius: 24px;
+     }
+     .foottop h1{
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 47px;
+        padding-top: 80px;
+        padding-left: 35px;
+     }
+     .footmid{
+        width: 780px;
+        display: flex;
+     }
+     .midleft img{
+        width: 280px;
+        height: 280px;
+        border-radius: 24px;
+        margin-left: 50px;
+        margin-top: 150px;
+     }
+     .midcenter {
+        width: 100px;
+        margin-top: 90px;
+     }
+     .midcenter li{
+        list-style: none;
+        padding-top: 70px;
+        padding-left: 50px;
+     }
+     .midcenter a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+     }
+     .midright {
+        width: 100px;
+        margin-top: 90px;
+     }
+     .midright li{
+        list-style: none;
+        padding-top: 60px;
+        padding-left: 160px;
+     }
+     .midright a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+     }
+     .footdown {
+        width: 700px;
+        display: flex;
+        margin-top: 130px;
+        margin-left: 30px;
+     }
+     .footdown img{
+        width: 75px;
+        height: 75px;
+     }
+     .footdown h2{
+        color: mintcream;
+        font-size: 33px;
+        font-family: 'Inter',sans-serif;
+        font-weight: lighter;
+        margin-top: 19px;
+        margin-left: 10px;
+     }
+   
+
+  }
+
+  @media screen and (min-width:768px) {
+   
+
+*{
+    scroll-behavior: smooth;
+}
+    .body{
+      max-width: 300px;
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 27px;
+    font-weight: lighter;
+    padding-left: 10px;
+    
+}
+.navleft{
+    display: flex;
+    font-size: 20px;
+    padding-left:175px;
+    margin-top: 015px;
+}
+.navleft a{
+    padding-left:30px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+   .mobilebanner img{
+    display: none;
+} 
+.desktopbanner{
+    width: 100%;
+}
+ .desktopbanner img{
+    display: block;
+     border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 18px;
+    width: 760px;
+}
+.pc-banner {
+   display: none;
+}
+.carfting {
+    /* border: solid 2px red;*/
+     width: 760px;
+     padding-left: 20px;
+     margin-top: 50px;
+     font-family: 'Inter',sans-serif;
+     font-size: 19px;
+ }
+ 
+ .craftimages{
+     display: flex;
+    justify-content: space-between;
+ }
+ .craftimages img{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+    
+ }
+ .craft-img05,.craft-img06 img{
+   display: none;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+ }
+ .craftnote h1{
+     padding-left: 5px;
+    
+ }
+ .craft-note05, .craft-note06 {
+   display: none;
+ }
+ .about{
+   width:760px;
+   margin-left: 13px;
+   font-family: 'Inter',sans-serif;
+ }
+ .about-us h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .about-us p{
+   font-size: 34px;
+   font-weight: lighter;
+ }
+ .global h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .global p{
+   font-size: 34px;
+   font-weight: lighter;
+ }
+ .third h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .third p{
+   font-size: 34px;
+   font-weight: lighter;
+ }
+ .ccc h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .ccc p{
+   font-size: 34px;
+   font-weight:lighter;
+ }
+ .ccc ul{
+   list-style-type: disc;
+   font-size: 34px;
+   font-weight: lighter;
+ }
+ .join h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .join p{
+   font-size: 34px;
+   font-weight: lighter;
+ }
+ .info {
+    margin-top:150px;
+    font-family: 'Inter',sans-serif;
+    width: 750px;
+    margin-left: 20px;
+     }
+     .info h1{
+        width: 700px;
+        font-size: 38px;
+        margin-left: 40px;
+        font-weight: 500;
+     }
+     .foot {
+        background-color: #61432E;
+        width: 815px;
+        height: 830px;
+        margin-top: 35px;
+        margin-left: -8px;
+        border-radius: 24px;
+     }
+     .foottop h1{
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 47px;
+        padding-top: 80px;
+        padding-left: 35px;
+     }
+     .footmid{
+        width: 780px;
+        display: flex;
+     }
+     .midleft img{
+        width: 280px;
+        height: 280px;
+        border-radius: 24px;
+        margin-left: 50px;
+        margin-top: 150px;
+     }
+     .midcenter {
+        width: 100px;
+        margin-top: 90px;
+     }
+     .midcenter li{
+        list-style: none;
+        padding-top: 70px;
+        padding-left: 50px;
+     }
+     .midcenter a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+     }
+     .midright {
+        width: 100px;
+        margin-top: 90px;
+     }
+     .midright li{
+        list-style: none;
+        padding-top: 60px;
+        padding-left: 160px;
+     }
+     .midright a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+     }
+     .footdown {
+        width: 700px;
+        display: flex;
+        margin-top: 130px;
+        margin-left: 30px;
+     }
+     .footdown img{
+        width: 75px;
+        height: 75px;
+     }
+     .footdown h2{
+        color: mintcream;
+        font-size: 33px;
+        font-family: 'Inter',sans-serif;
+        font-weight: lighter;
+        margin-top: 19px;
+        margin-left: 10px;
+     }
+   
+
+  }
+    @media screen and (min-width:1024px) {
+   
+
+*{
+    scroll-behavior: smooth;
+}
+    .body{
+      max-width: 300px;
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 27px;
+    font-weight: lighter;
+    padding-left: 10px;
+    
+}
+.navleft{
+    display: flex;
+    font-size: 20px;
+    padding-left:475px;
+    margin-top: 015px;
+}
+.navleft a{
+    padding-left:30px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+   .mobilebanner img{
+    display: none;
+} 
+.desktopbanner{
+    display: none;
+}
+.pc-banner {
+   display: block;
+}
+.pc-banner img {
+   width: 950px;
+   height: 250px;
+   border-radius: 24px;
+   margin-top: 40px;
+   margin-left: 50px;
+}
+.carfting {
+    /* border: solid 2px red;*/
+     width: 760px;
+     padding-left: 20px;
+     margin-top: 50px;
+     font-family: 'Inter',sans-serif;
+     font-size: 16px;
+ }
+ 
+ .craftimages{
+     display: flex;
+    justify-content: space-between;
+ }
+ .craftimages img{
+     width: 110px;
+     height: 110px;
+     border-radius: 50%;
+    
+ }
+ .craft-img01 img {
+  margin-left: 35px;
+ }
+  .craft-img02 img {
+  margin-left: 55px;
+ }
+  .craft-img03 img {
+  margin-left: 55px;
+ }
+  .craft-img04 img {
+  margin-left: 55px;
+ }
+ .craft-img005 {
+   display: block;
+   margin-left: 55px;
+ }
+  .craft-img005 img {
+   display: block;
+
+ }
+   .craft-img06 img {
+      display: block;
+  margin-left: 55px;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+ }
+ .craft-note01 {
+ margin-left: 25px;
+ }
+ .craft-note02{
+ margin-left: 100px;
+ }
+ .craft-note03 {
+ margin-left: 60px
+ }
+ .craft-note04 {
+   margin-left: 50px ;
+ }
+ .craft-note05 {
+ display: block;
+ margin-left: 70px;
+ }
+ .craft-note06 {
+   display: block;
+   margin-left: 60px;
+ 
+ }
+ .craft-note01  h1{
+ font-size: 25px;
+
+ }
+  .craft-note02  h1{
+ font-size: 25px;
+ }
+  .craft-note03  h1{
+ font-size: 23px;
+ }
+  .craft-note04  h1{
+ font-size: 25px;
+ }
+  .craft-note05  h1{
+ font-size: 25px;
+ }
+  .craft-note06  h1{
+ font-size: 25px;
+ width: 220px;
+
+ }
+ .about{
+   width:1000px;
+   margin-left: 13px;
+   font-family: 'Inter',sans-serif;
+ }
+ .about-us h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .about-us p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .global h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .global p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .third h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .third p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .ccc h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .ccc p{
+   font-size: 32px;
+   font-weight:lighter;
+ }
+ .ccc ul{
+   list-style-type: disc;
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .join h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .join p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .info {
+    margin-top:150px;
+    font-family: 'Inter',sans-serif;
+    width: 750px;
+    margin-left: 20px;
+     }
+     .info h1{
+        width: 1080px;
+        font-size: 38px;
+        margin-left: 40px;
+        font-weight: 500;
+     }
+     .foot {
+        background-color: #61432E;
+        width: 1080px;
+        height: 830px;
+        margin-top: 35px;
+        margin-left: -3px;
+        border-radius: 24px;
+     }
+     .foottop h1{
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 47px;
+        padding-top: 80px;
+        padding-left: 35px;
+     }
+     .footmid{
+        width: 780px;
+        display: flex;
+     }
+     .midleft img{
+        width: 280px;
+        height: 280px;
+        border-radius: 24px;
+        margin-left: 50px;
+        margin-top: 150px;
+     }
+     .midcenter {
+        width: 100px;
+        margin-top: 130px;
+        margin-left: 50px;
+     }
+     .midcenter li{
+        list-style: none;
+        padding-top: 70px;
+        padding-left: 50px;
+     }
+     .midcenter a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+     }
+     .midright {
+        width: 100px;
+        margin-top: 130px;
+     }
+     .midright li{
+        list-style: none;
+        padding-top: 60px;
+        padding-left: 160px;
+     }
+     .midright a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+     }
+     .footdown {
+        width: 700px;
+        display: flex;
+        margin-top: 130px;
+        margin-left: 30px;
+     }
+     .footdown img{
+        width: 75px;
+        height: 75px;
+     }
+     .footdown h2{
+        color: mintcream;
+        font-size: 33px;
+        font-family: 'Inter',sans-serif;
+        font-weight: lighter;
+        margin-top: 19px;
+        margin-left: 10px;
+     }
+   
+}
+    @media screen and (min-width:1366px) {
+   
+
+*{
+    scroll-behavior: smooth;
+}
+    .body{
+      max-width: 300px;
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 10px;
+    
+}
+.navleft{
+    display: flex;
+    font-size: 20px;
+    padding-left:570px;
+    margin-top: 015px;
+}
+.navleft a{
+    padding-left:60px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 28px;
+}
+   .mobilebanner img{
+    display: none;
+} 
+.desktopbanner{
+    display: none;
+}
+.pc-banner {
+   display: block;
+}
+.pc-banner img {
+   width: 1250px;
+   height: 350px;
+   border-radius: 24px;
+   margin-top: 40px;
+   margin-left: 50px;
+}
+.carfting {
+    /* border: solid 2px red;*/
+     width: 760px;
+     padding-left: 80px;
+     margin-top: 80px;
+     font-family: 'Inter',sans-serif;
+     font-size: 16px;
+ }
+ 
+ .craftimages{
+     display: flex;
+    justify-content: space-between;
+ }
+ .craftimages img{
+     width: 110px;
+     height: 110px;
+     border-radius: 50%;
+    
+ }
+ .craft-img01 img {
+  margin-left: 35px;
+ }
+  .craft-img02 img {
+  margin-left: 55px;
+ }
+  .craft-img03 img {
+  margin-left: 55px;
+ }
+  .craft-img04 img {
+  margin-left: 55px;
+ }
+ .craft-img005 {
+   display: block;
+   margin-left: 55px;
+ }
+  .craft-img005 img {
+   display: block;
+
+ }
+   .craft-img06 img {
+      display: block;
+  margin-left: 55px;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+ }
+ .craft-note01 {
+ margin-left: 25px;
+ }
+ .craft-note02{
+ margin-left: 100px;
+ }
+ .craft-note03 {
+ margin-left: 60px
+ }
+ .craft-note04 {
+   margin-left: 50px ;
+ }
+ .craft-note05 {
+ display: block;
+ margin-left: 70px;
+ }
+ .craft-note06 {
+   display: block;
+   margin-left: 60px;
+ 
+ }
+ .craft-note01  h1{
+ font-size: 25px;
+
+ }
+  .craft-note02  h1{
+ font-size: 25px;
+ }
+  .craft-note03  h1{
+ font-size: 23px;
+ }
+  .craft-note04  h1{
+ font-size: 25px;
+ }
+  .craft-note05  h1{
+ font-size: 25px;
+ }
+  .craft-note06  h1{
+ font-size: 25px;
+ width: 220px;
+
+ }
+ .about{
+   width:1150px;
+   margin-left: 83px;
+   font-family: 'Inter',sans-serif;
+ }
+ .about-us h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .about-us p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .global h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .global p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .third h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .third p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .ccc h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .ccc p{
+   font-size: 32px;
+   font-weight:lighter;
+ }
+ .ccc ul{
+   list-style-type: disc;
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .join h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .join p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .info {
+    margin-top:150px;
+    font-family: 'Inter',sans-serif;
+    width: 1200px;
+    margin-left: 80px;
+     }
+     .info h1{
+        width: 1200px;
+        font-size: 38px;
+        margin-left: 40px;
+        font-weight: 500;
+     }
+     .foot {
+        background-color: #61432E;
+        width: 1330px;
+        height: 830px;
+        margin-top: 35px;
+        margin-left: 2px;
+        border-radius: 24px;
+     }
+     .foottop h1{
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 47px;
+        padding-top: 80px;
+        padding-left: 35px;
+     }
+     .footmid{
+        width: 780px;
+        display: flex;
+     }
+     .midleft img{
+        width: 300px;
+        height: 300px;
+        border-radius: 24px;
+        margin-left: 80px;
+        margin-top: 120px;
+     }
+     .midcenter {
+        width: 100px;
+        margin-top: 100px;
+        margin-left: 80px;
+     }
+     .midcenter li{
+        list-style: none;
+        padding-top: 70px;
+        padding-left: 50px;
+     }
+     .midcenter a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 38px;
+        font-weight: 200;
+     }
+     .midright {
+        width: 100px;
+        margin-top: 100px;
+     }
+     .midright li{
+        list-style: none;
+        padding-top: 60px;
+        padding-left: 220px;
+     }
+     .midright a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 38px;
+        font-weight: 200;
+     }
+     .footdown {
+        width: 700px;
+        display: flex;
+        margin-top: 130px;
+        margin-left: 30px;
+     }
+     .footdown img{
+        width: 75px;
+        height: 75px;
+     }
+     .footdown h2{
+        color: mintcream;
+        font-size: 33px;
+        font-family: 'Inter',sans-serif;
+        font-weight: lighter;
+        margin-top: 19px;
+        margin-left: 10px;
+     }
+   
+}
+
+    @media screen and (min-width:1440px) {
+   
+
+*{
+    scroll-behavior: smooth;
+}
+    .body{
+      max-width: 300px;
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 32px;
+    font-weight: lighter;
+    padding-left: 10px;
+    
+}
+.navleft{
+    display: flex;
+    font-size: 20px;
+    padding-left:570px;
+    margin-top: 015px;
+}
+.navleft a{
+    padding-left:70px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+   .mobilebanner img{
+    display: none;
+} 
+.desktopbanner{
+    display: none;
+}
+.pc-banner {
+   display: block;
+}
+.pc-banner img {
+   width: 1350px;
+   height: 350px;
+   border-radius: 24px;
+   margin-top: 40px;
+   margin-left: 20px;
+}
+.carfting {
+    /* border: solid 2px red;*/
+     width: 760px;
+     padding-left: 80px;
+     margin-top: 80px;
+     font-family: 'Inter',sans-serif;
+     font-size: 16px;
+ }
+ 
+ .craftimages{
+     display: flex;
+    justify-content: space-between;
+ }
+ .craftimages img{
+     width: 110px;
+     height: 110px;
+     border-radius: 50%;
+    
+ }
+ .craft-img01 img {
+  margin-left: 35px;
+ }
+  .craft-img02 img {
+  margin-left: 55px;
+ }
+  .craft-img03 img {
+  margin-left: 55px;
+ }
+  .craft-img04 img {
+  margin-left: 55px;
+ }
+ .craft-img005 {
+   display: block;
+   margin-left: 55px;
+ }
+  .craft-img005 img {
+   display: block;
+
+ }
+   .craft-img06 img {
+      display: block;
+  margin-left: 55px;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+ }
+ .craft-note01 {
+ margin-left: 25px;
+ }
+ .craft-note02{
+ margin-left: 100px;
+ }
+ .craft-note03 {
+ margin-left: 60px
+ }
+ .craft-note04 {
+   margin-left: 50px ;
+ }
+ .craft-note05 {
+ display: block;
+ margin-left: 70px;
+ }
+ .craft-note06 {
+   display: block;
+   margin-left: 60px;
+ 
+ }
+ .craft-note01  h1{
+ font-size: 25px;
+
+ }
+  .craft-note02  h1{
+ font-size: 25px;
+ }
+  .craft-note03  h1{
+ font-size: 23px;
+ }
+  .craft-note04  h1{
+ font-size: 25px;
+ }
+  .craft-note05  h1{
+ font-size: 25px;
+ }
+  .craft-note06  h1{
+ font-size: 25px;
+ width: 220px;
+
+ }
+ .about{
+   width:1150px;
+   margin-left: 83px;
+   font-family: 'Inter',sans-serif;
+ }
+ .about-us h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .about-us p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .global h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .global p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .third h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .third p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .ccc h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .ccc p{
+   font-size: 32px;
+   font-weight:lighter;
+ }
+ .ccc ul{
+   list-style-type: disc;
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .join h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .join p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .info {
+    margin-top:150px;
+    font-family: 'Inter',sans-serif;
+    width: 1300px;
+    margin-left: 80px;
+     }
+     .info h1{
+        width: 1300px;
+        font-size: 38px;
+        margin-left: 40px;
+        font-weight: 500;
+     }
+     .foot {
+        background-color: #61432E;
+        width: 1430px;
+        height: 830px;
+        margin-top: 35px;
+        margin-left: 2px;
+        border-radius: 24px;
+     }
+     .foottop h1{
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 47px;
+        padding-top: 80px;
+        padding-left: 35px;
+     }
+     .footmid{
+        width: 780px;
+        display: flex;
+     }
+     .midleft img{
+        width: 300px;
+        height: 300px;
+        border-radius: 24px;
+        margin-left: 80px;
+        margin-top: 120px;
+     }
+     .midcenter {
+        width: 100px;
+        margin-top: 100px;
+        margin-left: 80px;
+     }
+     .midcenter li{
+        list-style: none;
+        padding-top: 70px;
+        padding-left: 50px;
+     }
+     .midcenter a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 38px;
+        font-weight: 200;
+     }
+     .midright {
+        width: 100px;
+        margin-top: 100px;
+     }
+     .midright li{
+        list-style: none;
+        padding-top: 60px;
+        padding-left: 220px;
+     }
+     .midright a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 38px;
+        font-weight: 200;
+     }
+     .footdown {
+        width: 700px;
+        display: flex;
+        margin-top: 130px;
+        margin-left: 30px;
+     }
+     .footdown img{
+        width: 75px;
+        height: 75px;
+     }
+     .footdown h2{
+        color: mintcream;
+        font-size: 33px;
+        font-family: 'Inter',sans-serif;
+        font-weight: lighter;
+        margin-top: 19px;
+        margin-left: 10px;
+     }
+   
+}
+
+    @media screen and (min-width:1536px) {
+   
+
+*{
+    scroll-behavior: smooth;
+}
+    .body{
+      max-width: 300px;
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 38px;
+    font-weight: lighter;
+    padding-left: 10px;
+    
+}
+.navleft{
+    display: flex;
+    font-size: 20px;
+    padding-left:600px;
+    margin-top: 015px;
+}
+.navleft a{
+    padding-left:70px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 32px;
+}
+   .mobilebanner img{
+    display: none;
+} 
+.desktopbanner{
+    display: none;
+}
+.pc-banner {
+   display: block;
+}
+.pc-banner img {
+   width: 1450px;
+   height: 350px;
+   border-radius: 24px;
+   margin-top: 40px;
+   margin-left: 20px;
+}
+.carfting {
+    /* border: solid 2px red;*/
+     width: 760px;
+     padding-left: 80px;
+     margin-top: 80px;
+     font-family: 'Inter',sans-serif;
+     font-size: 16px;
+ }
+ 
+ .craftimages{
+     display: flex;
+    justify-content: space-between;
+ }
+ .craftimages img{
+     width: 110px;
+     height: 110px;
+     border-radius: 50%;
+    
+ }
+ .craft-img01 img {
+  margin-left: 35px;
+ }
+  .craft-img02 img {
+  margin-left: 55px;
+ }
+  .craft-img03 img {
+  margin-left: 55px;
+ }
+  .craft-img04 img {
+  margin-left: 55px;
+ }
+ .craft-img005 {
+   display: block;
+   margin-left: 55px;
+ }
+  .craft-img005 img {
+   display: block;
+
+ }
+   .craft-img06 img {
+      display: block;
+  margin-left: 55px;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+ }
+ .craft-note01 {
+ margin-left: 25px;
+ }
+ .craft-note02{
+ margin-left: 100px;
+ }
+ .craft-note03 {
+ margin-left: 60px
+ }
+ .craft-note04 {
+   margin-left: 50px ;
+ }
+ .craft-note05 {
+ display: block;
+ margin-left: 70px;
+ }
+ .craft-note06 {
+   display: block;
+   margin-left: 60px;
+ 
+ }
+ .craft-note01  h1{
+ font-size: 25px;
+
+ }
+  .craft-note02  h1{
+ font-size: 25px;
+ }
+  .craft-note03  h1{
+ font-size: 23px;
+ }
+  .craft-note04  h1{
+ font-size: 25px;
+ }
+  .craft-note05  h1{
+ font-size: 25px;
+ }
+  .craft-note06  h1{
+ font-size: 25px;
+ width: 220px;
+
+ }
+ .about{
+   width:1300px;
+   margin-left: 83px;
+   font-family: 'Inter',sans-serif;
+ }
+ .about-us h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .about-us p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .global h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .global p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .third h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .third p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .ccc h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .ccc p{
+   font-size: 32px;
+   font-weight:lighter;
+ }
+ .ccc ul{
+   list-style-type: disc;
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .join h1{
+   margin-top: 120px;
+   font-size: 42px;
+   font-weight: 600;
+ }
+ .join p{
+   font-size: 32px;
+   font-weight: lighter;
+ }
+ .info {
+    margin-top:150px;
+    font-family: 'Inter',sans-serif;
+    width: 1400px;
+    margin-left: 80px;
+     }
+     .info h1{
+        width: 1400px;
+        font-size: 38px;
+        margin-left: 40px;
+        font-weight: 500;
+     }
+     .foot {
+        background-color: #61432E;
+        width: 1530px;
+        height: 830px;
+        margin-top: 35px;
+        margin-left: 2px;
+        border-radius: 24px;
+     }
+     .foottop h1{
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 47px;
+        padding-top: 80px;
+        padding-left: 35px;
+     }
+     .footmid{
+        width: 780px;
+        display: flex;
+     }
+     .midleft img{
+        width: 300px;
+        height: 300px;
+        border-radius: 24px;
+        margin-left: 180px;
+        margin-top: 120px;
+     }
+     .midcenter {
+        width: 100px;
+        margin-top: 100px;
+        margin-left: 150px;
+     }
+     .midcenter li{
+        list-style: none;
+        padding-top: 70px;
+        padding-left: 50px;
+     }
+     .midcenter a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 38px;
+        font-weight: 200;
+     }
+     .midright {
+        width: 100px;
+        margin-top: 100px;
+     }
+     .midright li{
+        list-style: none;
+        padding-top: 60px;
+        padding-left: 220px;
+     }
+     .midright a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 38px;
+        font-weight: 200;
+     }
+     .footdown {
+        width: 700px;
+        display: flex;
+        margin-top: 130px;
+        margin-left: 30px;
+     }
+     .footdown img{
+        width: 75px;
+        height: 75px;
+     }
+     .footdown h2{
+        color: mintcream;
+        font-size: 33px;
+        font-family: 'Inter',sans-serif;
+        font-weight: lighter;
+        margin-top: 19px;
+        margin-left: 10px;
+     }
+   
+}
+
+
+   

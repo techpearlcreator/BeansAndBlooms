@@ -1,0 +1,1878 @@
+
+ @media screen and (min-width:320px) {
+   
+*{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+    .body{
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -15px;
+    margin-left: -15px
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 34px;
+    font-weight: lighter;
+    padding-left: 4px;
+    margin-top: 10px;
+}
+.navleft{
+    display: flex;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 120px;
+}
+.navleft a{
+   margin-left: 3px;
+    padding-left:22px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+.mobilebanner{
+    display: flex;
+    margin-right: 15px;
+}
+.mobilebanner img{
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left:2px;
+    width: 760px;
+}
+.desktopbanner img{
+    display: none;
+}
+.pc-banner img {
+   display: none;
+}
+.carfting {
+    /* border: solid 2px red;*/
+    width: 600px;
+     padding-left: 15px;
+     margin-top: 50px;
+     font-family: 'Inter',sans-serif;
+     font-size: 24px;
+ }
+ 
+ .craftimages{
+     display: flex;
+     margin-left: -20px;
+ }
+ .craftimages img{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+    margin-top: 10px;
+ }
+ .craft-img-01{
+ margin-left: 20px;
+ }
+  .craft-img-02{
+ margin-left: 40px;
+ }
+  .craft-img-03{
+ margin-left: 40px;
+ }
+  .craft-img-04{
+ margin-left: 40px;
+ }
+  .craft-img-05{
+display: none;
+ }
+  .craft-img-06{
+display: none;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+ }
+ .craftnote h1{
+    font-size: 30px;
+ }
+ .craftnote-01 {
+ margin-left: 20px;
+ }
+  .craftnote-02 {
+ margin-left: 90px;
+ }
+  .craftnote-03 {
+ margin-left: 80px;
+ }
+  .craftnote-04 {
+ margin-left:60px;
+ }
+  .for-note-01 {
+display: none;
+ }
+  .for-note-00{
+display: none;
+ }
+ .explore-coffee {
+   margin-top: -120px;
+ }
+ .explore-coffee h1{
+   font-size: 37px;
+   font-weight: 600;
+   }
+   .explore-coffee p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .coffee h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .coffee p{
+     font-size:30px;
+     font-weight: lighter;
+   }
+   .tea h1{
+     margin-top: 40px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .tea p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Milk h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .Milk p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Cakes h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .Cakes p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .chocolate h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .chocolate p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .end-card h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .end-card p{
+     font-size: 34px;
+     font-weight: lighter;
+  
+   }
+ .learnmore {
+    position: relative;
+    margin-top: 120px;
+    margin-left: 2px;
+ }
+ .learnmore img{
+    position: absolute;
+    z-index: 1;
+    width: 807px;
+    height: 1100px;
+    border-radius: 30px;
+ }
+ .learnmore h1{
+    position: absolute;
+    z-index: 2;
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 140px;
+    margin-left: 43px;
+    padding-top: 10px;
+ }
+ .learnmore button{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 80px;
+    background-color: rgba(255, 213, 123, 0.9);
+    border-radius: 90px;
+    color:#4B3526; 
+    font-size: 44px;
+    font-weight: bolder;
+    margin-top: 980px;
+    margin-left: 470px;
+ }
+ .more-details{
+   width: 760px;
+   margin-left: 18px;
+   margin-top: 200px;
+   font-family: 'Inter',sans-serif;
+ }
+ 
+ .info {
+    margin-top: 150px;
+    font-family: 'Inter',sans-serif;
+    width: 750px;
+    margin-left: 20px;
+     }
+     .info h1{
+        width: 700px;
+        font-size: 38px;
+        margin-left: 40px;
+        font-weight: 500;
+     }
+     .foot {
+        background-color: #61432E;
+        width: 770px;
+        height: 830px;
+        margin-top: 60px;
+        margin-left: 0px;
+        border-radius: 24px;
+     }
+     .foottop h1{
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 47px;
+        padding-top: 80px;
+        padding-left: 35px;
+     }
+     .footmid{
+        width: 780px;
+        display: flex;
+     }
+     .midleft img{
+        width: 280px;
+        height: 280px;
+        border-radius: 24px;
+        margin-left: 50px;
+        margin-top: 150px;
+     }
+     .midcenter {
+        width: 150px;
+        margin-top: 130px;
+        padding-top: 30px;
+     }
+     .midcenter li{
+      padding-top: 55px;
+      list-style: none;
+     }
+     .midcenter a{
+       text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+        margin-left: 60px;
+     }
+     .midright {
+        width: 100px;
+        margin-top: 150px;
+     }
+     .midright li{
+        list-style: none;
+        padding-top: 50px;
+        padding-left: 50px;
+     }
+     .midright a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+     }
+     .footdown {
+        width: 700px;
+        display: flex;
+        margin-top: 130px;
+        margin-left: 30px;
+     }
+     .footdown img{
+        width: 75px;
+        height: 75px;
+     }
+     .footdown h2{
+        color: mintcream;
+        font-size: 33px;
+        font-family: 'Inter',sans-serif;
+        font-weight: lighter;
+        margin-top: 19px;
+        margin-left: 10px;
+     }
+   }
+  @media screen and (min-width:768px) {
+   
+*{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+    .body{
+
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: -15px;
+    margin-left: -15px
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 4px;
+    margin-top: 10px;
+}
+.navleft{
+    display: flex;
+    font-size: 18px;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+.navleft a{
+   margin-left: 3px;
+    padding-left:25px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+   .mobilebanner img{
+    display: none;
+} 
+.desktopbanner{
+    width: 100%;
+}
+ .desktopbanner img{
+    display: block;
+     border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 18px;
+    width: 760px;
+}
+.pc-banner {
+   display: none;
+}
+.carfting {
+    /* border: solid 2px red;*/
+    width: 600px;
+     padding-left: 15px;
+     margin-top: 50px;
+     font-family: 'Inter',sans-serif;
+     font-size: 24px;
+ }
+ 
+ .craftimages{
+     display: flex;
+     margin-left: -20px;
+ }
+ .craftimages img{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+    margin-top: 10px;
+ }
+ .craft-img-01{
+ margin-left: 20px;
+ }
+  .craft-img-02{
+ margin-left: 40px;
+ }
+  .craft-img-03{
+ margin-left: 40px;
+ }
+  .craft-img-04{
+ margin-left: 40px;
+ }
+  .craft-img-05{
+display: none;
+ }
+  .craft-img-06{
+display: none;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+ }
+ .craftnote h1{
+    font-size: 30px;
+ }
+ .craftnote-01 {
+ margin-left: 20px;
+ }
+  .craftnote-02 {
+ margin-left: 90px;
+ }
+  .craftnote-03 {
+ margin-left: 80px;
+ }
+  .craftnote-04 {
+ margin-left:60px;
+ }
+  .for-note-01 {
+display: none;
+ }
+  .for-note-00{
+display: none;
+ }
+ .explore-coffee {
+   margin-top: -120px;
+ }
+ .explore-coffee h1{
+   font-size: 37px;
+   font-weight: 600;
+   }
+   .explore-coffee p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .coffee h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .coffee p{
+     font-size:30px;
+     font-weight: lighter;
+   }
+   .tea h1{
+     margin-top: 40px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .tea p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Milk h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .Milk p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Cakes h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .Cakes p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .chocolate h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .chocolate p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .end-card h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .end-card p{
+     font-size: 34px;
+     font-weight: lighter;
+  
+   }
+ .learnmore {
+    position: relative;
+    margin-top: 120px;
+    margin-left: 2px;
+ }
+ .learnmore img{
+    position: absolute;
+    z-index: 1;
+    width: 807px;
+    height: 1100px;
+    border-radius: 30px;
+ }
+ .learnmore h1{
+    position: absolute;
+    z-index: 2;
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 140px;
+    margin-left: 43px;
+    padding-top: 10px;
+ }
+ .learnmore button{
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    height: 80px;
+    background-color: rgba(255, 213, 123, 0.9);
+    border-radius: 90px;
+    color:#4B3526; 
+    font-size: 44px;
+    font-weight: bolder;
+    margin-top: 980px;
+    margin-left: 470px;
+ }
+ .more-details{
+   width: 760px;
+   margin-left: 18px;
+   margin-top: 200px;
+   font-family: 'Inter',sans-serif;
+ }
+ 
+ .info {
+    margin-top: 150px;
+    font-family: 'Inter',sans-serif;
+    width: 750px;
+    margin-left: 20px;
+     }
+     .info h1{
+        width: 700px;
+        font-size: 38px;
+        margin-left: 40px;
+        font-weight: 500;
+     }
+     .foot {
+        background-color: #61432E;
+        width: 755px;
+        height: 830px;
+        margin-top: 60px;
+        margin-left: 0px;
+        border-radius: 24px;
+     }
+     .foottop h1{
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 47px;
+        padding-top: 80px;
+        padding-left: 35px;
+     }
+     .footmid{
+        width: 780px;
+        display: flex;
+     }
+     .midleft img{
+        width: 280px;
+        height: 280px;
+        border-radius: 24px;
+        margin-left: 50px;
+        margin-top: 150px;
+     }
+     .midcenter {
+        width: 150px;
+        margin-top: 130px;
+        padding-top: 30px;
+     }
+     .midcenter li{
+      padding-top: 55px;
+      list-style: none;
+     }
+     .midcenter a{
+       text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+        margin-left: 60px;
+     }
+     .midright {
+        width: 100px;
+        margin-top: 150px;
+     }
+     .midright li{
+        list-style: none;
+        padding-top: 50px;
+        padding-left: 70px;
+     }
+     .midright a{
+        text-decoration: none;
+        color: mintcream;
+        font-family: 'Inter',sans-serif;
+        font-size: 35px;
+        font-weight: 200;
+     }
+     .footdown {
+        width: 700px;
+        display: flex;
+        margin-top: 130px;
+        margin-left: 30px;
+     }
+     .footdown img{
+        width: 75px;
+        height: 75px;
+     }
+     .footdown h2{
+        color: mintcream;
+        font-size: 33px;
+        font-family: 'Inter',sans-serif;
+        font-weight: lighter;
+        margin-top: 19px;
+        margin-left: 10px;
+     }
+ }
+   @media screen and (min-width:1024px) {
+   
+*{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+    .body{
+
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: -15px;
+    margin-left: -15px
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 4px;
+    margin-top: 10px;
+}
+.navleft{
+    display: flex;
+    font-size: 18px;
+    margin-top: 15px;
+    padding-left: 200px;
+}
+.navleft a{
+   margin-left: 3px;
+    padding-left:40px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+   .mobilebanner img{
+    display: none;
+} 
+.desktopbanner{
+    width: 100%;
+    display: block;
+}
+ .desktopbanner img{
+    display: block;
+     border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 18px;
+    width: 960px;
+}
+
+.pc-banner img {
+   display:none;
+}
+.carfting {
+    /* border: solid 2px red;*/
+    width: 600px;
+     padding-left: 15px;
+     margin-top: 50px;
+     font-family: 'Inter',sans-serif;
+     font-size: 20px;
+ }
+ 
+ .craftimages{
+     display: flex;
+     margin-left: -20px;
+ }
+ .craftimages img{
+     width: 130px;
+     height: 130px;
+     border-radius: 50%;
+    margin-top: 10px;
+ }
+ .craft-img-01{
+ margin-left: 15px;
+ }
+  .craft-img-02{
+ margin-left: 35px;
+ }
+  .craft-img-03{
+ margin-left: 35px;
+ }
+  .craft-img-04{
+ margin-left: 35px;
+ }
+  .craft-img-05{
+display: block;
+width: 130px;
+height: 130px;
+margin-left: 35px;
+ }
+  .craft-img-06{
+display: block;
+width: 130px;
+height: 130px;
+margin-left: 35px;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+ }
+ .craftnote h1{
+    font-size: 30px;
+ }
+ .craftnote-01 {
+ margin-left: 20px;
+ }
+  .craftnote-02 {
+ margin-left: 70px;
+ }
+  .craftnote-03 {
+ margin-left: 50px;
+ }
+  .craftnote-04 {
+ margin-left:30px;
+ }
+  .for-note-01 {
+display: block;
+width: 200px;
+margin-top: -55px;
+margin-left: 35px;
+
+ }
+  .for-note-00{
+      width: 200px;
+display: block;
+margin-left: 185px;
+ }
+ .explore-coffee {
+   margin-top: -120px;
+ }
+ .explore-coffee h1{
+   font-size: 37px;
+   font-weight: 600;
+   }
+   .explore-coffee p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .coffee h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .coffee p{
+     font-size:30px;
+     font-weight: lighter;
+   }
+   .tea h1{
+     margin-top: 40px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .tea p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Milk h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .Milk p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Cakes h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .Cakes p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .chocolate h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .chocolate p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .end-card h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .end-card p{
+     font-size: 34px;
+     font-weight: lighter;
+  
+   }
+
+ .more-details{
+   width: 950px;
+   margin-left: 18px;
+   margin-top: 200px;
+   font-family: 'Inter',sans-serif;
+ }
+ 
+ .info {
+margin-top:100px;
+font-family: 'Inter',sans-serif;
+width: 1050px;
+margin-left: 20px;
+ }
+ .info h1{
+    width: 1050px;
+    font-size: 35px;
+    margin-left: 40px;
+    font-weight: 500;
+ }
+ .foot {
+    background-color: #61432E;
+    width: 1050px;
+    height: 530px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 24px;
+ }
+ .foottop h1{
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 27px;
+    padding-top: 30px;
+    padding-left: 35px;
+ }
+ .footmid{
+    width: 780px;
+    display: flex;
+ }
+ .midleft img{
+    width: 280px;
+    height: 280px;
+    border-radius: 24px;
+    margin-left: 50px;
+    margin-top: 50px;
+ }
+ .midcenter {
+    width: 170px;
+    margin-top: 40px;
+    margin-left: 30px;
+ }
+ .midcenter li{
+    list-style: none;
+    padding-top: 70px;
+    padding-left: 50px;
+ }
+ .midcenter a{
+    text-decoration: none;
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+ }
+ .midright {
+    width: 100px;
+    margin-top: 70px;
+ }
+ .midright li{
+    list-style: none;
+    padding-top: 60px;
+    padding-left: 160px;
+ }
+ .midright a{
+    text-decoration: none;
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+ }
+ .footdown {
+    width: 700px;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 30px;
+ }
+ .footdown img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+ }
+ .footdown h2{
+    color: mintcream;
+    font-size: 25px;
+    font-family: 'Inter',sans-serif;
+    font-weight: lighter;
+    margin-top: 25px;
+    margin-left: 10px;
+ }
+ }
+    @media screen and (min-width:1366px) {
+   
+*{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+    .body{
+
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: -15px;
+    margin-left: -15px
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 34px;
+    font-weight: lighter;
+    padding-left: 4px;
+    margin-top: 10px;
+}
+.navleft{
+    display: flex;
+    font-size: 22px;
+    margin-top: 15px;
+    padding-left: 440px;
+}
+.navleft a{
+   margin-left: 3px;
+    padding-left:40px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+   .mobilebanner img{
+    display: none;
+} 
+ .desktopbanner img{
+    display: none;
+ }
+ .pc-banner {
+   display: block;
+ }
+.pc-banner img {
+   display: block;
+   width: 1250px;
+   height: 300px;
+   margin-top: 50px;
+   border-radius: 24px;
+   margin-left: 30px;
+}
+.carfting {
+    /* border: solid 2px red;*/
+    width: 600px;
+     padding-left: 30px;
+     margin-top: 50px;
+     font-family: 'Inter',sans-serif;
+     font-size: 20px;
+ }
+ 
+ .craftimages{
+     display: flex;
+     margin-left: 20px;
+ }
+ .craftimages img{
+     width: 130px;
+     height: 130px;
+     border-radius: 50%;
+    margin-top: 10px;
+ }
+ .craft-img-01{
+ margin-left: 25px;
+ }
+  .craft-img-02{
+ margin-left: 45px;
+ }
+  .craft-img-03{
+ margin-left: 45px;
+ }
+  .craft-img-04{
+ margin-left: 45px;
+ }
+  .craft-img-05{
+display: block;
+width: 130px;
+height: 130px;
+margin-left: 45px;
+ }
+  .craft-img-06{
+display: block;
+width: 130px;
+height: 130px;
+margin-left: 55px;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+     margin-left: 40px;
+ }
+ .craftnote h1{
+    font-size: 30px;
+ }
+ .craftnote-01 {
+ margin-left: 20px;
+ }
+  .craftnote-02 {
+ margin-left: 80px;
+ }
+  .craftnote-03 {
+ margin-left: 60px;
+ }
+  .craftnote-04 {
+ margin-left:40px;
+ }
+  .for-note-01 {
+display: block;
+width: 200px;
+margin-top: -55px;
+margin-left: 55px;
+
+ }
+  .for-note-00{
+      width: 200px;
+display: block;
+margin-left: 225px;
+ }
+ .explore-coffee {
+   margin-top: -120px;
+ }
+ .explore-coffee h1{
+   font-size: 37px;
+   font-weight: 600;
+   }
+   .explore-coffee p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .coffee h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .coffee p{
+     font-size:30px;
+     font-weight: lighter;
+   }
+   .tea h1{
+     margin-top: 40px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .tea p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Milk h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .Milk p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Cakes h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .Cakes p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .chocolate h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .chocolate p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .end-card h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .end-card p{
+     font-size: 34px;
+     font-weight: lighter;
+  
+   }
+
+ .more-details{
+   width: 1250px;
+   margin-left: 60px;
+   margin-top: 200px;
+   font-family: 'Inter',sans-serif;
+ }
+ 
+ .info {
+margin-top:100px;
+font-family: 'Inter',sans-serif;
+width: 1250px;
+margin-left: 20px;
+ }
+ .info h1{
+    width: 1250px;
+    font-size: 35px;
+    margin-left: 40px;
+    font-weight: 500;
+ }
+ .foot {
+    background-color: #61432E;
+    width: 1320px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 24px;
+ }
+ .foottop h1{
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 33px;
+    padding-top: 50px;
+    padding-left: 35px;
+ }
+ .footmid{
+    width: 780px;
+    display: flex;
+ }
+ .midleft img{
+    width: 300px;
+    height: 300px;
+    border-radius: 24px;
+    margin-left: 70px;
+    margin-top: 80px;
+ }
+ .midcenter {
+    width: 180px;
+    margin-top: 40px;
+    margin-left: 70px;
+ }
+ .midcenter li{
+    list-style: none;
+    padding-top: 70px;
+    padding-left: 50px;
+ }
+ .midcenter a{
+    text-decoration: none;
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+ }
+ .midright {
+    width: 100px;
+    margin-top: 70px;
+ }
+ .midright li{
+    list-style: none;
+    padding-top: 60px;
+    padding-left: 220px;
+ }
+ .midright a{
+    text-decoration: none;
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+ }
+ .footdown {
+    width: 700px;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 30px;
+ }
+ .footdown img{
+    width: 75px;
+    height: 75px;
+    margin-top: 95px;
+ }
+ .footdown h2{
+    color: mintcream;
+    font-size: 30px;
+    font-family: 'Inter',sans-serif;
+    font-weight: lighter;
+    margin-top: 115px;
+    margin-left: 10px;
+ }
+ }
+     @media screen and (min-width:1440px) {
+   
+*{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+    .body{
+
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: -15px;
+    margin-left: -15px
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 38px;
+    font-weight: lighter;
+    padding-left: 4px;
+    margin-top: 10px;
+}
+.navleft{
+    display: flex;
+    font-size: 22px;
+    margin-top: 15px;
+    padding-left: 470px;
+}
+.navleft a{
+   margin-left: 3px;
+    padding-left:60px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+   .mobilebanner img{
+    display: none;
+} 
+ .desktopbanner img{
+    display: none;
+ }
+ .pc-banner {
+   display: block;
+ }
+.pc-banner img {
+   display: block;
+   width: 1350px;
+   height: 350px;
+   margin-top: 50px;
+   border-radius: 24px;
+   margin-left: 30px;
+}
+.carfting {
+    /* border: solid 2px red;*/
+    width: 600px;
+     padding-left: 30px;
+     margin-top: 70px;
+     font-family: 'Inter',sans-serif;
+     font-size: 20px;
+ }
+ 
+ .craftimages{
+     display: flex;
+     margin-left: 20px;
+ }
+ .craftimages img{
+     width: 130px;
+     height: 130px;
+     border-radius: 50%;
+    margin-top: 10px;
+ }
+ .craft-img-01{
+ margin-left: 25px;
+ }
+  .craft-img-02{
+ margin-left: 45px;
+ }
+  .craft-img-03{
+ margin-left: 45px;
+ }
+  .craft-img-04{
+ margin-left: 45px;
+ }
+  .craft-img-05{
+display: block;
+width: 130px;
+height: 130px;
+margin-left: 45px;
+ }
+  .craft-img-06{
+display: block;
+width: 130px;
+height: 130px;
+margin-left: 55px;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+     margin-left: 40px;
+ }
+ .craftnote h1{
+    font-size: 30px;
+ }
+ .craftnote-01 {
+ margin-left: 20px;
+ }
+  .craftnote-02 {
+ margin-left: 80px;
+ }
+  .craftnote-03 {
+ margin-left: 60px;
+ }
+  .craftnote-04 {
+ margin-left:40px;
+ }
+  .for-note-01 {
+display: block;
+width: 200px;
+margin-top: -55px;
+margin-left: 55px;
+
+ }
+  .for-note-00{
+      width: 200px;
+display: block;
+margin-left: 225px;
+ }
+ .explore-coffee {
+   margin-top: -120px;
+ }
+ .explore-coffee h1{
+   font-size: 37px;
+   font-weight: 600;
+   }
+   .explore-coffee p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .coffee h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .coffee p{
+     font-size:30px;
+     font-weight: lighter;
+   }
+   .tea h1{
+     margin-top: 40px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .tea p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Milk h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .Milk p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Cakes h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .Cakes p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .chocolate h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .chocolate p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .end-card h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .end-card p{
+     font-size: 34px;
+     font-weight: lighter;
+  
+   }
+
+ .more-details{
+   width: 1300px;
+   margin-left: 60px;
+   margin-top: 200px;
+   font-family: 'Inter',sans-serif;
+ }
+ 
+ .info {
+margin-top:100px;
+font-family: 'Inter',sans-serif;
+width: 1400px;
+margin-left: 20px;
+ }
+ .info h1{
+    width: 1400px;
+    font-size: 35px;
+    margin-left: 40px;
+    font-weight: 500;
+ }
+ .foot {
+    background-color: #61432E;
+    width: 1420px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 24px;
+ }
+ .foottop h1{
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 33px;
+    padding-top: 50px;
+    padding-left: 35px;
+ }
+ .footmid{
+    width: 780px;
+    display: flex;
+ }
+ .midleft img{
+    width: 300px;
+    height: 300px;
+    border-radius: 24px;
+    margin-left: 140px;
+    margin-top: 80px;
+ }
+ .midcenter {
+    width: 180px;
+    margin-top: 40px;
+    margin-left: 70px;
+ }
+ .midcenter li{
+    list-style: none;
+    padding-top: 70px;
+    padding-left: 50px;
+ }
+ .midcenter a{
+    text-decoration: none;
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+ }
+ .midright {
+    width: 100px;
+    margin-top: 70px;
+ }
+ .midright li{
+    list-style: none;
+    padding-top: 60px;
+    padding-left: 220px;
+ }
+ .midright a{
+    text-decoration: none;
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+ }
+ .footdown {
+    width: 700px;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 30px;
+ }
+ .footdown img{
+    width: 75px;
+    height: 75px;
+    margin-top: 95px;
+ }
+ .footdown h2{
+    color: mintcream;
+    font-size: 30px;
+    font-family: 'Inter',sans-serif;
+    font-weight: lighter;
+    margin-top: 115px;
+    margin-left: 10px;
+ }
+ }
+      @media screen and (min-width:1536px) {
+   
+*{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+    .body{
+
+    background-color:mintcream;
+}
+.navtop{
+ /*border: solid 2px red;*/
+ display: flex;
+}
+.navright{
+   /* border: 2px solid red;*/
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.navright img{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin-top: -15px;
+    margin-left: -15px
+}
+.navright h1{
+    color: black;
+    font-family: 'Keania One', cursive;
+    font-size: 38px;
+    font-weight: lighter;
+    padding-left: 4px;
+    margin-top: 5px;
+}
+.navleft{
+    display: flex;
+    font-size: 24px;
+    margin-top: 15px;
+    padding-left: 490px;
+}
+.navleft a{
+   margin-left: 3px;
+    padding-left:60px;
+    font-weight: lighter;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+   .mobilebanner img{
+    display: none;
+} 
+ .desktopbanner img{
+    display: none;
+ }
+ .pc-banner {
+   display: block;
+ }
+.pc-banner img {
+   display: block;
+   width: 1450px;
+   height: 400px;
+   margin-top: 50px;
+   border-radius: 24px;
+   margin-left: 30px;
+}
+.carfting {
+    /* border: solid 2px red;*/
+    width: 600px;
+     padding-left: 30px;
+     margin-top: 70px;
+     font-family: 'Inter',sans-serif;
+     font-size: 20px;
+ }
+ 
+ .craftimages{
+     display: flex;
+     margin-left: 20px;
+ }
+ .craftimages img{
+     width: 130px;
+     height: 130px;
+     border-radius: 50%;
+    margin-top: 10px;
+ }
+ .craft-img-01{
+ margin-left: 25px;
+ }
+  .craft-img-02{
+ margin-left: 45px;
+ }
+  .craft-img-03{
+ margin-left: 45px;
+ }
+  .craft-img-04{
+ margin-left: 45px;
+ }
+  .craft-img-05{
+display: block;
+width: 130px;
+height: 130px;
+margin-left: 45px;
+ }
+  .craft-img-06{
+display: block;
+width: 130px;
+height: 130px;
+margin-left: 55px;
+ }
+ .craftnote {
+     display: flex;
+     justify-content: space-around;
+     font-family: 'Inter',sans-serif;
+     margin-left: 40px;
+ }
+ .craftnote h1{
+    font-size: 30px;
+ }
+ .craftnote-01 {
+ margin-left: 20px;
+ }
+  .craftnote-02 {
+ margin-left: 80px;
+ }
+  .craftnote-03 {
+ margin-left: 60px;
+ }
+  .craftnote-04 {
+ margin-left:40px;
+ }
+  .for-note-01 {
+display: block;
+width: 200px;
+margin-top: -55px;
+margin-left: 55px;
+
+ }
+  .for-note-00{
+      width: 200px;
+display: block;
+margin-left: 225px;
+ }
+ .explore-coffee {
+   margin-top: -120px;
+ }
+ .explore-coffee h1{
+   font-size: 37px;
+   font-weight: 600;
+   }
+   .explore-coffee p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .coffee h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .coffee p{
+     font-size:30px;
+     font-weight: lighter;
+   }
+   .tea h1{
+     margin-top: 40px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .tea p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Milk h1{
+     margin-top: 20px;
+     font-size: 37px;
+     font-weight: 600;
+   }
+   .Milk p{
+     font-size: 30px;
+     font-weight: lighter;
+   }
+   .Cakes h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .Cakes p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .chocolate h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .chocolate p{
+     font-size: 34px;
+     font-weight: lighter;
+   }
+   .end-card h1{
+     margin-top: 120px;
+     font-size: 42px;
+     font-weight: 600;
+   }
+   .end-card p{
+     font-size: 34px;
+     font-weight: lighter;
+  
+   }
+
+ .more-details{
+   width: 1400px;
+   margin-left: 60px;
+   margin-top: 200px;
+   font-family: 'Inter',sans-serif;
+ }
+ 
+ .info {
+margin-top:100px;
+font-family: 'Inter',sans-serif;
+width: 1450px;
+margin-left: 20px;
+ }
+ .info h1{
+    width: 1450px;
+    font-size: 35px;
+    margin-left: 40px;
+    font-weight: 500;
+ }
+ .foot {
+    background-color: #61432E;
+    width: 1490px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 24px;
+ }
+ .foottop h1{
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 33px;
+    padding-top: 50px;
+    padding-left: 35px;
+ }
+ .footmid{
+    width: 780px;
+    display: flex;
+ }
+ .midleft img{
+    width: 300px;
+    height: 300px;
+    border-radius: 24px;
+    margin-left: 140px;
+    margin-top: 80px;
+ }
+ .midcenter {
+    width: 1400px;
+    margin-top: 50px;
+    margin-left: 70px;
+ }
+ .midcenter li{
+    list-style: none;
+    padding-top: 60px;
+    padding-left: 50px;
+ }
+ .midcenter a{
+    text-decoration: none;
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+ }
+ .midright {
+    width: 100px;
+    margin-top: 70px;
+ }
+ .midright li{
+    list-style: none;
+    padding-top: 60px;
+    padding-left: 320px;
+ }
+ .midright a{
+    text-decoration: none;
+    color: mintcream;
+    font-family: 'Inter',sans-serif;
+    font-size: 36px;
+    font-weight: 200;
+ }
+ .footdown {
+    width: 700px;
+    display: flex;
+    margin-top: 35px;
+    margin-left: 30px;
+ }
+ .footdown img{
+    width: 75px;
+    height: 75px;
+    margin-top: 95px;
+ }
+ .footdown h2{
+    color: mintcream;
+    font-size: 30px;
+    font-family: 'Inter',sans-serif;
+    font-weight: lighter;
+    margin-top: 115px;
+    margin-left: 10px;
+ }
+ }
