@@ -1,72 +1,23 @@
-document.addEventListener("DOMContentLoaded", () => {
-  // Check if order exists
-  const items = JSON.parse(sessionStorage.getItem("orderItems"));
-  const total = sessionStorage.getItem("orderTotal");
-
-  if (!items || !total) {
-    alert("No order found! Please start your order again.");
-    window.location.href = "project-bb02.html";
-    return;
-  }
-
-  // Display order summary
-  const summaryDiv = document.getElementById("orderSummary");
-  let html = "<ul>";
-  items.forEach((item, i) => {
-    html += `<li>${i + 1}. ${item.name} – ₹${item.price} × ${item.Qty} = ₹${item.subtotal}</li>`;
-  });
-  html += `</ul> <strong> Total: ₹${total}</strong> `;
-  summaryDiv.innerHTML = html;
-
-  // Generate QR Code
-  const upiId = "skannaiah1147@okicici";
-  const name = "Beans and Bloom";
-  const upiLink = `upi://pay?pa=${upiId}&pn=${encodeURIComponent(name)}&am=${total}&cu=INR`;
-
-  new QRCode(document.getElementById("qrcode"), {
-    text: upiLink,
-    width: 200,
-    height: 200
-  });
-
-  // Display timestamp
-  const orderTime = sessionStorage.getItem("orderTime");
-  const options = {
-    timeZone: "Asia/Kolkata",
-    weekday: "short",
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-    hour: "2-digit",
-    minute: "2-digit",
-    hour12: true
-  };
-  const formattedTime = new Intl.DateTimeFormat("en-IN", options).format(new Date(orderTime));
-  document.getElementById("orderTimestamp").textContent = formattedTime;
-
-  // Display order number
-  const orderNumber = sessionStorage.getItem("orderNumber");
-  if (!orderNumber) {
-    alert("Invalid order!");
-    window.location.href = "project-bb02.html";
-    return;
-  }
-  document.getElementById("orderNumber").textContent = orderNumber;
-});
-
 // Upload image helper function
 async function uploadImage(imageFile) {
+  if (!imageFile) return "Not provided";
+
   const formData = new FormData();
   formData.append("image", imageFile);
 
-  const response = await fetch("https://api.imgbb.com/1/upload?key=823f671a24c88d043f616c9585391f62", {
-    method: "POST",
-    body: formData
-  });
+  try {
+    const response = await fetch("https://api.imgbb.com/1/upload?key=823f671a24c88d043f616c9585391f62", {
+      method: "POST",
+      body: formData
+    });
 
-  if (!response.ok) throw new Error('Image upload failed');
-  const data = await response.json();
-  return data.data.url;
+    if (!response.ok) throw new Error('Image upload failed');
+    const data = await response.json();
+    return data.data.url;
+  } catch (err) {
+    console.error(err);
+    return "Upload failed";
+  }
 }
 
 // Send completed order to backend & WhatsApp
@@ -83,15 +34,18 @@ async function sendCompletedOrder() {
   }
 
   try {
-    const imageUrl = imageFile ? await uploadImage(imageFile) : "Not provided";
+    // Upload image (optional)
+    const imageUrl = await uploadImage(imageFile);
 
+    // Get order data from sessionStorage
     const orderItems = JSON.parse(sessionStorage.getItem("orderItems"));
     const orderTotal = sessionStorage.getItem("orderTotal");
     const orderNumber = sessionStorage.getItem("orderNumber");
     const orderTime = sessionStorage.getItem("orderTime");
 
-    // Send to backend API (PostgreSQL)
-    await fetch('http://localhost:3000/api/orders', {
+    // Send to Render backend API (PostgreSQL)
+    const backendURL = "https://beansandblooms-api.onrender.com/api/orders"; // Replace with your Render URL
+    const res = await fetch(backendURL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -106,7 +60,9 @@ async function sendCompletedOrder() {
       })
     });
 
-    // WhatsApp message
+    if (!res.ok) throw new Error("Failed to save order to backend");
+
+    // Prepare WhatsApp message
     let message = `*NEW ORDER* (#${orderNumber})\n\n`;
     message += `*Customer Details*\n`;
     message += `Name: ${name}\n`;
@@ -133,9 +89,3 @@ async function sendCompletedOrder() {
 
 // Make function available in HTML
 window.sendCompletedOrder = sendCompletedOrder;
-
-
-
-
-  
-
