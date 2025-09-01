@@ -1,31 +1,64 @@
-// Upload image helper function
-async function uploadImage(imageFile) {
-  if (!imageFile) return "Not provided";
+document.addEventListener("DOMContentLoaded", () => {
+  // Get order from sessionStorage
+  const items = JSON.parse(sessionStorage.getItem("orderItems"));
+  const total = sessionStorage.getItem("orderTotal");
 
-  const formData = new FormData();
-  formData.append("image", imageFile);
-
-  try {
-    const response = await fetch("https://api.imgbb.com/1/upload?key=823f671a24c88d043f616c9585391f62", {
-      method: "POST",
-      body: formData
-    });
-
-    if (!response.ok) throw new Error('Image upload failed');
-    const data = await response.json();
-    return data.data.url;
-  } catch (err) {
-    console.error(err);
-    return "Upload failed";
+  if (!items || !total) {
+    alert("No order found! Please start your order again.");
+    window.location.href = "project-bb02.html";
+    return;
   }
-}
 
-// Send completed order to backend & WhatsApp
-async function sendCompletedOrder() {
+  // Display order summary
+  const summaryDiv = document.getElementById("orderSummary");
+  let html = "<ul>";
+  items.forEach((item, i) => {
+    html += `<li>${i + 1}. ${item.name} – ₹${item.price} × ${item.Qty} = ₹${item.subtotal}</li>`;
+  });
+  html += `</ul> <strong>Total: ₹${total}</strong>`;
+  summaryDiv.innerHTML = html;
+
+  // Generate QR Code for payment
+  const upiId = "skannaiah1147@okicici";
+  const name = "Beans and Bloom";
+  const upiLink = `upi://pay?pa=${upiId}&pn=${encodeURIComponent(name)}&am=${total}&cu=INR`;
+
+  new QRCode(document.getElementById("qrcode"), {
+    text: upiLink,
+    width: 200,
+    height: 200
+  });
+
+  // Display timestamp
+  const orderTime = sessionStorage.getItem("orderTime");
+  const options = {
+    timeZone: "Asia/Kolkata",
+    weekday: "short",
+    year: "numeric",
+    month: "short",
+    day: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true
+  };
+  const formattedTime = new Intl.DateTimeFormat("en-IN", options).format(new Date(orderTime));
+  document.getElementById("orderTimestamp").textContent = formattedTime;
+
+  // Display order number
+  const orderNumber = sessionStorage.getItem("orderNumber");
+  if (!orderNumber) {
+    alert("Invalid order!");
+    window.location.href = "project-bb02.html";
+    return;
+  }
+  document.getElementById("orderNumber").textContent = orderNumber;
+});
+
+// Send order details to WhatsApp
+function sendCompletedOrder() {
   const name = document.getElementById('Name').value;
   const mobile = document.getElementById('Mobile-No').value;
   const address = document.getElementById('Address').value;
-  const imageFile = document.getElementById('Screenshot').files[0];
 
   // Validate mobile number
   if (!/^[6-9]\d{9}$/.test(mobile)) {
@@ -33,58 +66,29 @@ async function sendCompletedOrder() {
     return;
   }
 
-  try {
-    // Upload image (optional)
-    const imageUrl = await uploadImage(imageFile);
+  const orderItems = JSON.parse(sessionStorage.getItem("orderItems"));
+  const orderTotal = sessionStorage.getItem("orderTotal");
+  const orderNumber = sessionStorage.getItem("orderNumber");
+  const orderTime = sessionStorage.getItem("orderTime");
 
-    // Get order data from sessionStorage
-    const orderItems = JSON.parse(sessionStorage.getItem("orderItems"));
-    const orderTotal = sessionStorage.getItem("orderTotal");
-    const orderNumber = sessionStorage.getItem("orderNumber");
-    const orderTime = sessionStorage.getItem("orderTime");
+  // Prepare WhatsApp message
+  let message = `*NEW ORDER* (#${orderNumber})\n\n`;
+  message += `*Customer Details*\n`;
+  message += `Name: ${name}\n`;
+  message += `Mobile: ${mobile}\n`;
+  message += `Address: ${address}\n\n`;
+  message += `Order Items:\n`;
+  orderItems.forEach((item, index) => {
+    message += `${index + 1}. ${item.name}\n`;
+    message += `   Qty: ${item.Qty} × ₹${item.price} = ₹${item.subtotal}\n\n`;
+  });
+  message += `Total: ₹${orderTotal}\n\n`;
+  message += `Order Time: ${new Date(orderTime).toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}`;
 
-    // Send to Render backend API (PostgreSQL)
-    const backendURL = "https://beansandblooms-api.onrender.com/api/orders"; // Replace with your Render URL
-    const res = await fetch(backendURL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        customerName: name,
-        mobile,
-        address,
-        orderItems,
-        orderTotal,
-        orderNumber,
-        orderTime,
-        screenshotUrl: imageUrl
-      })
-    });
+  const encodedMessage = encodeURIComponent(message);
+  window.open(`https://wa.me/916369510851?text=${encodedMessage}`, '_blank');
 
-    if (!res.ok) throw new Error("Failed to save order to backend");
-
-    // Prepare WhatsApp message
-    let message = `*NEW ORDER* (#${orderNumber})\n\n`;
-    message += `*Customer Details*\n`;
-    message += `Name: ${name}\n`;
-    message += `Mobile: ${mobile}\n`;
-    message += `Address: ${address}\n\n`;
-    message += `Order Items:\n`;
-    orderItems.forEach((item, index) => {
-      message += `${index + 1}. ${item.name}\n`;
-      message += `   Qty: ${item.Qty} × ₹${item.price} = ₹${item.subtotal}\n\n`;
-    });
-    message += `Total: ₹${orderTotal}\n\n`;
-    message += `Payment Proof: ${imageUrl}`;
-
-    const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/916369510851?text=${encodedMessage}`, '_blank');
-
-    alert("Order placed successfully! Data saved to database.");
-
-  } catch (error) {
-    console.error('Error:', error);
-    alert(`Error: ${error.message}`);
-  }
+  alert("Order details sent to WhatsApp successfully!");
 }
 
 // Make function available in HTML
