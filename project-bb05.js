@@ -1,9 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Get order from sessionStorage
+  // Retrieve order data from sessionStorage
   const items = JSON.parse(sessionStorage.getItem("orderItems"));
   const total = sessionStorage.getItem("orderTotal");
+  const orderNumber = sessionStorage.getItem("orderNumber");
+  const orderTime = sessionStorage.getItem("orderTime");
 
-  if (!items || !total) {
+  // Validate order data
+  if (!items || !total || !orderNumber || !orderTime) {
     alert("No order found! Please start your order again.");
     window.location.href = "project-bb02.html";
     return;
@@ -15,22 +18,13 @@ document.addEventListener("DOMContentLoaded", () => {
   items.forEach((item, i) => {
     html += `<li>${i + 1}. ${item.name} – ₹${item.price} × ${item.Qty} = ₹${item.subtotal}</li>`;
   });
-  html += `</ul> <strong>Total: ₹${total}</strong>`;
+  html += `</ul><strong>Total: ₹${total}</strong>`;
   summaryDiv.innerHTML = html;
 
-  // Generate QR Code for payment
-  const upiId = "skannaiah1147@okicici";
-  const name = "Beans and Bloom";
-  const upiLink = `upi://pay?pa=${upiId}&pn=${encodeURIComponent(name)}&am=${total}&cu=INR`;
+  // Display order number
+  document.getElementById("orderNumber").textContent = orderNumber;
 
-  new QRCode(document.getElementById("qrcode"), {
-    text: upiLink,
-    width: 200,
-    height: 200
-  });
-
-  // Display timestamp
-  const orderTime = sessionStorage.getItem("orderTime");
+  // Display formatted timestamp
   const options = {
     timeZone: "Asia/Kolkata",
     weekday: "short",
@@ -44,52 +38,81 @@ document.addEventListener("DOMContentLoaded", () => {
   const formattedTime = new Intl.DateTimeFormat("en-IN", options).format(new Date(orderTime));
   document.getElementById("orderTimestamp").textContent = formattedTime;
 
-  // Display order number
-  const orderNumber = sessionStorage.getItem("orderNumber");
-  if (!orderNumber) {
-    alert("Invalid order!");
-    window.location.href = "project-bb02.html";
-    return;
-  }
-  document.getElementById("orderNumber").textContent = orderNumber;
+  // Generate QR Code for total bill
+  const upiId = "skannaiah1147@okicici";
+  const name = "Beans and Bloom";
+  const upiLink = `upi://pay?pa=${upiId}&pn=${encodeURIComponent(name)}&am=${total}&cu=INR`;
+  const qrDiv = document.getElementById("qrcode");
+  new QRCode(qrDiv, {
+    text: upiLink,
+    width: 200,
+    height: 200
+  });
 });
 
-// Send order details to WhatsApp
-function sendCompletedOrder() {
-  const name = document.getElementById('Name').value;
-  const mobile = document.getElementById('Mobile-No').value;
-  const address = document.getElementById('Address').value;
+// Function to send completed order to WhatsApp
+async function sendCompletedOrder() {
+  const name = document.getElementById("Name").value.trim();
+  const mobile = document.getElementById("Mobile-No").value.trim();
+  const address = document.getElementById("Address").value.trim();
+  const screenshotFile = document.getElementById("Screenshot").files[0];
 
-  // Validate mobile number
+  // Validate inputs
+  if (!name || !mobile || !address) {
+    alert("Please fill all required fields.");
+    return;
+  }
   if (!/^[6-9]\d{9}$/.test(mobile)) {
-    alert("Please enter valid 10-digit Indian mobile number");
+    alert("Please enter a valid 10-digit Indian mobile number.");
     return;
   }
 
-  const orderItems = JSON.parse(sessionStorage.getItem("orderItems"));
-  const orderTotal = sessionStorage.getItem("orderTotal");
-  const orderNumber = sessionStorage.getItem("orderNumber");
-  const orderTime = sessionStorage.getItem("orderTime");
+  try {
+    // Upload image if provided (optional)
+    let imageUrl = "Not provided";
+    if (screenshotFile) {
+      const formData = new FormData();
+      formData.append("image", screenshotFile);
 
-  // Prepare WhatsApp message
-  let message = `*NEW ORDER* (#${orderNumber})\n\n`;
-  message += `*Customer Details*\n`;
-  message += `Name: ${name}\n`;
-  message += `Mobile: ${mobile}\n`;
-  message += `Address: ${address}\n\n`;
-  message += `Order Items:\n`;
-  orderItems.forEach((item, index) => {
-    message += `${index + 1}. ${item.name}\n`;
-    message += `   Qty: ${item.Qty} × ₹${item.price} = ₹${item.subtotal}\n\n`;
-  });
-  message += `Total: ₹${orderTotal}\n\n`;
-  message += `Order Time: ${new Date(orderTime).toLocaleString("en-IN", { timeZone: "Asia/Kolkata" })}`;
+      const response = await fetch("https://api.imgbb.com/1/upload?key=823f671a24c88d043f616c9585391f62", {
+        method: "POST",
+        body: formData
+      });
 
-  const encodedMessage = encodeURIComponent(message);
-  window.open(`https://wa.me/916369510851?text=${encodedMessage}`, '_blank');
+      if (!response.ok) throw new Error("Image upload failed");
+      const data = await response.json();
+      imageUrl = data.data.url;
+    }
 
-  alert("Order details sent to WhatsApp successfully!");
+    // Get order info from sessionStorage
+    const orderItems = JSON.parse(sessionStorage.getItem("orderItems"));
+    const orderTotal = sessionStorage.getItem("orderTotal");
+    const orderNumber = sessionStorage.getItem("orderNumber");
+    const orderTime = sessionStorage.getItem("orderTime");
+
+    // Compose WhatsApp message
+    let message = `*NEW ORDER* (#${orderNumber})\n\n`;
+    message += `*Customer Details*\n`;
+    message += `Name: ${name}\n`;
+    message += `Mobile: ${mobile}\n`;
+    message += `Address: ${address}\n\n`;
+    message += `Order Items:\n`;
+    orderItems.forEach((item, index) => {
+      message += `${index + 1}. ${item.name}\n   Qty: ${item.Qty} × ₹${item.price} = ₹${item.subtotal}\n`;
+    });
+    message += `\nTotal: ₹${orderTotal}\n`;
+    message += `Payment Proof: ${imageUrl}`;
+
+    const encodedMessage = encodeURIComponent(message);
+    window.open(`https://wa.me/916369510851?text=${encodedMessage}`, "_blank");
+
+    alert("Order placed successfully! Details sent to WhatsApp.");
+
+  } catch (error) {
+    console.error("Error:", error);
+    alert(`Error: ${error.message}`);
+  }
 }
 
-// Make function available in HTML
+// Make function available globally
 window.sendCompletedOrder = sendCompletedOrder;
